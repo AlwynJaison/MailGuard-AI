@@ -1,0 +1,25 @@
+{
+  "accuracy": 0.9806201550387597,
+  "precision": 0.9576271186440678,
+  "recall": 0.8828125,
+  "f1": 0.9186991869918699,
+  "confusion_matrix": [
+    [
+      899,
+      5
+    ],
+    [
+      15,
+      113
+    ]
+  ],
+  "training_samples": 4126,
+  "testing_samples": 1032,
+  "dataset_records": 5158,
+  "dataset_name": "UCI SMS Spam Collection (SMS)",
+  "dataset_type": "SMS messages",
+  "text_column": "text",
+  "label_column": "label",
+  "model_type": "TF-IDF (1\u20132 grams) + feed-forward neural network",
+  "threshold": 0.5
+}

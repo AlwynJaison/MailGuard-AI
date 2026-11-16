@@ -1,0 +1,5 @@
+.venv/
+.localenv/
+__pycache__/
+*.py[cod]
+database/history.db
